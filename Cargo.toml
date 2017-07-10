@@ -1,0 +1,6 @@
+[package]
+name = "spore_json"
+version = "0.1.0"
+authors = ["imoyakin <imoyaki@outlook.com>"]
+
+[dependencies]
