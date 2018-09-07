@@ -1,5 +1,5 @@
-pub mod value;
-pub use value::JsonValue;
+mod value;
+use value::JsonValue;
 
 pub type Array = Vec<JsonValue>;
 

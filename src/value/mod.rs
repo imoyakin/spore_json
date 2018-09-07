@@ -1,7 +1,9 @@
 use std::io;
-use std::io::prelude::*;
+//use std::io::prelude::*;
 use std::io::Write;
 
+///Json字符串数组
+/// 支持Object Stirng Number Boolen Array 和NULL共六种类型
 pub enum JsonValue {
     Object(String),
     String(String),
